@@ -97,16 +97,10 @@ function loop()
 
 ## Build
 
-Launching the Enscripten container with the Docker compose command and running build.sh will execute all of the build processes described below.
+The following Docker compose command will start the Enscripten container and execute all build processes.
 
 ```
     $: docker compose run emsdk_sandbox
-```
-
-In container:
-
-```
-    $: bash ./build.sh
 ```
 
 ### Prerequisites
