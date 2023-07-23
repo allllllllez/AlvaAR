@@ -15,4 +15,6 @@ services:
     volumes:
       - $pwd:/sandbox
     working_dir: /sandbox
-    command: bash --login
+    command: bash ./build.sh
+    # When you want to work inside a container：
+    # command: bash --login

@@ -18,8 +18,8 @@ source ${EMSDK_DIR}/emsdk_env.sh
 # Run Dependencies build
 ##############################################################################
 
-# cd ${ALVAAR_LIB_DIR}
-# bash ./build.sh > build.log 2>&1
+cd ${ALVAAR_LIB_DIR}
+bash ./build.sh > build.log 2>&1
 
 
 ##############################################################################
